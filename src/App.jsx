@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import Papa from "papaparse";
+import React from "react";
 import Navbar from "./components/Navbar";
 import FileImport from "./components/FileImport";
 
