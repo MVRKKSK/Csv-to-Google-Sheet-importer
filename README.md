@@ -39,3 +39,25 @@ The CSV to Google Spreadsheet Importer is a web application that allows users to
    ```bash
    git clone -b Development https://github.com/yourusername/your-repo.git
    cd your-repo
+   ```
+### backend
+```bash
+git clone -b Server https://github.com/yourusername/your-repo.git
+cd your-repo
+cd server
+npm install
+```
+Create a credentials.json file in the server folder and add your Google Cloud API key and credentials.
+Start the backend server:
+
+```bash
+npm start
+```
+The backend server should now be running and ready to process import requests.
+Deployment
+You can deploy the frontend and backend components separately. For example, you can host the React.js frontend on platforms like Vercel, Netlify, or GitHub Pages, while the backend server can be deployed on cloud providers like Heroku or AWS.
+
+Ensure you set the appropriate environment variables for your deployments, including the Google Cloud API key and credentials.
+
+Contributing
+We welcome contributions to improve this project. Feel free to submit issues, feature requests, or pull requests.
