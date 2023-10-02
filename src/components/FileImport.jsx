@@ -57,7 +57,7 @@ const FileImport = () => {
 
     try {
       setLoading(true);
-      const response = await fetch("http://localhost:8000/", {
+      const response = await fetch("https://csv-backend-ui7e.onrender.com/", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
