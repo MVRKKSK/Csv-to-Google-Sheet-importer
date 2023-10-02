@@ -38,7 +38,7 @@ const Navbar = () => {
             </a>
             <a
               className="mr-4 text-neutral-600 transition duration-200 hover:ease-in-out disabled:text-black/30 motion-reduce:transition-none text-neutral-200 hover:text-neutral-300 focus:text-neutral-300 [&.active]:text-black/90 [&.active]:text-neutral-400"
-              href="https://www.linkedin.com/in/mvrkksk/"
+              href="https://www.youtube.com/watch?v=PXi3CLtv_2g"
             >
               <span className="[&>svg]:w-5">
                 {/* Replace with your logo SVG or image */}
