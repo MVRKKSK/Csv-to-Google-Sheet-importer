@@ -54,7 +54,7 @@ Start the backend server:
 npm start
 ```
 The backend server should now be running and ready to process import requests.
-#Deployment
+### Deployment
 You can deploy the frontend and backend components separately. For example, you can host the React.js frontend on platforms like Vercel, Netlify, or GitHub Pages, while the backend server can be deployed on cloud providers like Heroku or AWS.
 
 Ensure you set the appropriate environment variables for your deployments, including the Google Cloud API key and credentials.
